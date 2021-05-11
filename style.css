@@ -1,19 +1,18 @@
-*{
-  margin: 0;
-  padding: 0;
+:root {
+    box-sizing: border-box;
 }
 
-header{
-    background: black;
-    color: white;
-    display: flex;
-    justify-content: space-between;
+*,
+::after,
+::before {
+    box-sizing: inherit;
 }
 
-.derecha{
-    background: red;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-.izquierda{
-    background: blue;
+header {
+    
 }
