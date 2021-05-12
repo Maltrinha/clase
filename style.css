@@ -1,3 +1,17 @@
+@font-face {
+    font-family: "FF Mark W05";
+    src: url("https://lolstatic-a.akamaihd.net/awesomefonts/Fonts/ffmark/8a533745-7bc5-4dcd-8552-d9952208de6f.eot?#iefix");
+    src: url("https://lolstatic-a.akamaihd.net/awesomefonts/Fonts/ffmark/8a533745-7bc5-4dcd-8552-d9952208de6f.eot?#iefix")
+        format("eot"),
+      url("https://lolstatic-a.akamaihd.net/awesomefonts/Fonts/ffmark/ffbb4591-1a9c-443b-9b6e-6ceb6a3ca76b.woff2")
+        format("woff2"),
+      url("https://lolstatic-a.akamaihd.net/awesomefonts/Fonts/ffmark/e44c8656-a389-4ecb-838c-3c135565d6b3.woff")
+        format("woff"),
+      url("https://lolstatic-a.akamaihd.net/awesomefonts/Fonts/ffmark/fcdcba61-8d4e-41db-9c06-24a5238587f1.ttf")
+        format("truetype");
+    font-weight: 400;
+    font-style: normal;
+  }
 :root {
     box-sizing: border-box;
 }
@@ -11,10 +25,50 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: "FF Mark W05" sans-serif;
 }
 
 header {
     background: black;
     color: white;
     width: 100%;
+}
+
+.header-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color:inherit;
+    padding: 0.8rem 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    letter-spacing: 0.07rem;
+}
+
+.Jugar-ahora {
+    display: flex;
+    align-items: center;
+}
+
+.Jugar-ahora a {
+    background: #FF4655;
+    border-radius: 3px;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.07rem;
+    font-size: 0.7rem;
 }
