@@ -32,6 +32,7 @@ header {
     background: black;
     color: white;
     width: 100%;
+    position: fixed;
 }
 
 .header-container {
@@ -79,3 +80,57 @@ header {
     letter-spacing: 0.07rem;
     font-size: 0.7rem;
 }
+
+.hero {
+    background: url("img/Valorant (1).jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.parrafo1 {
+    color: white;
+    font-weight: bold;
+    letter-spacing: 0.07rem;
+}
+
+.logo2 {
+    width: 50%;
+    margin-top: 1.5rem;    
+}
+
+.logo2 svg {
+    fill: white;
+}
+
+.Playfree {
+    display: flex;
+}
+
+.Playfree a {
+    background: #FF4655;
+    border-radius: 3px;
+    padding: 0.8rem 5rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.07rem;
+    font-size: 1rem;
+    margin-top: 2.5rem;
+    box-shadow: 7px 9px 6px -1px rgba(0,0,0,0.87);
+    -webkit-box-shadow: 7px 9px 6px -1px rgba(0,0,0,0.87);
+    -moz-box-shadow: 7px 9px 6px -1px rgba(0,0,0,0.87);
+    transition: all 0.4s ease-in;
+}
+
+.Playfree a:hover {
+    background: black;
+}
+
+
